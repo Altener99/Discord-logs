@@ -1,0 +1,29 @@
+/* Custom Discord-style Scrollbar without arrows */
+.custom-scrollbar {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 2px; /* Width of the scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent; /* Background of the track */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: whitesmoke; /* Scrollbar thumb color */
+    border-radius: 4px; /* Rounded edges */
+    border: 2px solid transparent; /* Adds some padding effect */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: whitesmoke; /* Thumb color on hover */
+  }
+  
+  /* Remove up and down arrows in the scrollbar */
+  .custom-scrollbar::-webkit-scrollbar-button {
+    display: none; /* Hides both up and down arrow buttons */
+  }
+  

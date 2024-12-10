@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: whitesmoke;
+    background-image: url('./images/download.jpg');  
+    background-size: cover; /* Ensures the image covers the whole screen */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-attachment: fixed; /* Makes the image stay fixed during scrolling */
+    background-position: center; /* Centers the image */
+}
