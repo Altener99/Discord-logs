@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className='p-8'>
+    <div className='p-8 scrollbar-hide'>
       <Logs/>
     </div>
   );
