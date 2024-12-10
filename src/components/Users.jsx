@@ -6,7 +6,7 @@ function Users() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3001/users').then((response) => {
+    axios.get('https://discord-bot-tau-ivory.vercel.app/users').then((response) => {
       setUsers((response.data).reverse());
     });
   }, []);

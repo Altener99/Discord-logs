@@ -10,7 +10,7 @@ function Content() {
     useEffect(() => {
         // Fetch logs initially
         const fetchLogs = () => {
-          axios.get('http://localhost:3001/logs')
+          axios.get('https://discord-bot-tau-ivory.vercel.app/logs')
             .then((response) => {
               setData(response.data);
             })
