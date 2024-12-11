@@ -34,7 +34,7 @@ function Content() {
     <div>
       <div className="inline-flex ml-28 mt-48 gap-44">
         {/* Chat Logs Section */}
-        <div className="bg-gray-800 p-4 rounded-lg shadow-lg max-w-[700px] max-h-[484px]">
+        <div className="bg-gray-800 p-4 rounded-lg shadow-lg max-w-[700px] min-w-[700px] max-h-[484px]">
           <h1 className="text-stone-400 text-[25px] font-bold border-b border-gray-600 pb-2 mb-4">
             Logs
           </h1>
