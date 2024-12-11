@@ -31,7 +31,7 @@ function Users() {
 
   return (
     <div className="bg-gray-800 bg-opacity-70 p-6 rounded-lg max-w-[700px] ml-28">
-      <h1 className="text-pink-400 font-bold text-2xl mb-6 text-center">Main Cast</h1>
+      <h1 className="text-pink-400 font-bold text-2xl mb-6 text-center">Members</h1>
       {/* Scrollable Area */}
       <div className="flex flex-col gap-4 p-4 h-96 overflow-y-auto custom-scrollbar">
         {users.map((user) => (
